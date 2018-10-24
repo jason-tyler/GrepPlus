@@ -1,6 +1,0 @@
-This is my first test of hello world!
-
-Let's see how well this goes.
-
-Test
-Test
