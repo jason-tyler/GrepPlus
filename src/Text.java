@@ -34,9 +34,8 @@ class Text {
 
         int index = this.text.get(lineNumber).indexOf(key, position);
 
-        if (index >= 0){
+        if (index >= 0)
             return new Match(lineNumber+1, index+1);
-        }
         else
             return null;
     }
