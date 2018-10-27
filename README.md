@@ -3,7 +3,7 @@
 GrepPlus is a simple text search program that accepts one to many keys that are used to search a standard input stream.
 
 ## Usage
-GrepPlus is a java program and is invoked using the `java`: `java GrepPlus --key [VALUE]`. The text to be
+GrepPlus is a java program and is invoked using `java GrepPlus --key [VALUE]`. The text to be
 searched must be provided to the standard input stream.
 
 Examples:
