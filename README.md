@@ -8,10 +8,10 @@ searched must be provided to the standard input stream.
 
 Examples:
 
-Linux/MacOS
+Linux/MacOS  
 `cat some.file | java GrepPlus --key some --key text`
 
-Windows
+Windows  
 `type some.file | java GrepPlus --key some --key text`
 
 ## Supported Arguments
