@@ -23,7 +23,7 @@ GrepPlus will output all keys that contain a match, number of matches per key, a
 
 >$ echo hello world | java GrepPlus --key world  
 >Key: world - 1 match(es)  
->  Line: 1 Char: 7`
+>  Line: 1 Char: 7
 
 ## Enhancements
 * Implement support for reading from files instead of just standard input.
