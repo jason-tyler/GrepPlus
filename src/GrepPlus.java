@@ -7,10 +7,10 @@
 public class GrepPlus {
 
     // App constants.
-    private static byte APP_CODE_ERROR = 1;
-    private static byte APP_CODE_SUCCESS = 0;
-    private static String ARG_HELP = "--help";
-    private static String ARG_KEY = "--key";
+    private static final byte APP_CODE_ERROR = 1;
+    private static final byte APP_CODE_SUCCESS = 0;
+    private static final String ARG_HELP = "--help";
+    private static final String ARG_KEY = "--key";
 
     /**
      * The entrypoint to the application is the main method. The application is expected to take arguments in the
