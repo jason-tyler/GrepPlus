@@ -4,7 +4,7 @@ import java.util.ArrayList;
 /**
  * The text class stores the content provided by standard in and allows a client to search the text using keywords.
  */
-class Text {
+public class Text {
     private ArrayList<String> text;
 
     /**

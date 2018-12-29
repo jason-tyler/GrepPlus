@@ -1,7 +1,7 @@
 /**
  * Represents a search result and identifies that matches associated with a key.
  */
-class SearchResult {
+public class SearchResult {
     private String key;
     private Matches matches = new Matches();
 

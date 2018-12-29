@@ -1,7 +1,7 @@
 /**
  * Represents a single match.
  */
-class Match {
+public class Match {
     private int lineNumber;
     private int location;
 
