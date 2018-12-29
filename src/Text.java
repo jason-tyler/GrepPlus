@@ -117,6 +117,7 @@ class Text {
 
         Scanner scanner = new Scanner(System.in);
 
+        // Loop through the contents of the standard input by line until the end of the stream is reached.
         while (scanner.hasNext() == true) {
             this.text.add(scanner.nextLine());
         }

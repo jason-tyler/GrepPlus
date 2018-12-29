@@ -140,7 +140,7 @@ public class GrepPlus {
     }
 
     /**
-     * Prings a message because no text was received from standard input.
+     * Prints a message because no text was received from standard input.
      */
     private static void printNoInputMessage(){
         String msg = "GrepPlus requires text to be provided by standard input.";
