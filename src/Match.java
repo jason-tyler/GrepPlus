@@ -8,14 +8,14 @@ public class Match {
     /**
      * Default constructor.
      */
-    Match(){}
+    public Match(){}
 
     /**
      *
      * @param lineNumber The line number that contains a match.
      * @param location The character index of the match.
      */
-    Match(int lineNumber, int location){
+    public Match(int lineNumber, int location){
         this.lineNumber = lineNumber;
         this.location = location;
     }
@@ -24,7 +24,7 @@ public class Match {
      * Sets the line number.
      * @param lineNumber Line Number.
      */
-    void setLineNumber(int lineNumber) {
+    public void setLineNumber(int lineNumber) {
         this.lineNumber = lineNumber;
     }
 
@@ -32,7 +32,7 @@ public class Match {
      * Sets the location.
      * @param location Location.
      */
-    void setLocation(int location) {
+    public void setLocation(int location) {
         this.location = location;
     }
 
@@ -40,7 +40,7 @@ public class Match {
      * Gets the line number.
      * @return Integer value of the line that contains the match.
      */
-    int getLineNumber() {
+    public int getLineNumber() {
         return lineNumber;
     }
 
@@ -48,7 +48,7 @@ public class Match {
      * Gets the location number.
      * @return Integer value of the index of the match.
      */
-    int getLocation() {
+    public int getLocation() {
         return location;
     }
 }

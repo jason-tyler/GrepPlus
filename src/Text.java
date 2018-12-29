@@ -12,7 +12,7 @@ public class Text {
      *
      * @return The local text.
      */
-    String getText() {
+    public String getText() {
         String buffer = new String();
 
         for (String line : this.text){
@@ -90,7 +90,7 @@ public class Text {
      * @param keys Collection of keys.
      * @return A collection of search results.
      */
-    SearchResults search(SearchKeys keys) {
+    public SearchResults search(SearchKeys keys) {
         if (keys == null || keys.size() == 0)
             throw new IllegalArgumentException("Keys cannot be null or empty.");
 
@@ -107,11 +107,9 @@ public class Text {
     }
 
     /**
-     * Reads text from standard input.
-     *
-     * @return Text from standard input.
+     * Reads text from standard input and loads the contents into memory.
      */
-    void read() {
+    public void read() {
         // Init the text.
         this.text = new ArrayList<String>();
 
