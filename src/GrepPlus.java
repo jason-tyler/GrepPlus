@@ -124,9 +124,8 @@ public class GrepPlus {
      * Prints a message for when no arguments have been provided to GrepPlus.
      */
     private static void printNoArgumentsMessage(){
-        String msg = "Usage: GrepPlus --key VALUE\n" +
-                "Try 'GrepPlus --help' for more information.\n";
-        printError(msg);
+        printError("Usage: GrepPlus --key VALUE\n" +
+                "Try 'GrepPlus --help' for more information.\n");
     }
 
     /**
@@ -143,7 +142,6 @@ public class GrepPlus {
      * Prints a message because no text was received from standard input.
      */
     private static void printNoInputMessage(){
-        String msg = "GrepPlus requires text to be provided by standard input.";
-        printError(msg);
+        printError("GrepPlus requires text to be provided by standard input.");
     }
 }
